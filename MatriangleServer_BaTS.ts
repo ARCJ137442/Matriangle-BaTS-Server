@@ -72,8 +72,8 @@ import {
 // 超参数/常量 //
 import config from './startup-BaTS.config'
 import MatrixVisualizer from 'matriangle-mod-visualization/visualizer/MatrixVisualizer'
-import { NativeDecorationLabel } from 'matriangle-mod-native/entities/player/DecorationLabels'
 import ProgramMatrixConsole from 'matriangle-mod-native/entities/control/MatrixConsole'
+import { TriangleAgentDecorationLabel } from 'matriangle-api/display/implements/triangleAgent/DecorationLabels'
 
 // 规则 //
 function initMatrixRule(): IMatrixRule {
@@ -157,7 +157,7 @@ function setupPlayers(host: IMatrix): void {
 	p2.customName = 'Player二号机'
 	p3.customName = '三号靶机'
 	// 装饰
-	p.decorationLabel = NativeDecorationLabel.CIRCLE
+	p.decorationLabel = TriangleAgentDecorationLabel.CIRCLE
 	// 生命数不减少
 	p.lifeNotDecay = p2.lifeNotDecay = p3.lifeNotDecay = true
 	// 武器
