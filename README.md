@@ -1,5 +1,13 @@
 # Matriangle BaTS Server
 
+![GitHub License](https://img.shields.io/github/license/ARCJ137442/Matriangle-BaTS-Server?style=for-the-badge&color=78dce8)
+![Code Size](https://img.shields.io/github/languages/code-size/ARCJ137442/Matriangle-BaTS-Server?style=for-the-badge&color=78dce8)
+![Lines of Code](https://www.aschey.tech/tokei/github.com/ARCJ137442/Matriangle-BaTS-Server?style=for-the-badge&color=78dce8)
+[![Language](https://img.shields.io/badge/language-TypeScript-cyan?style=for-the-badge&color=78dce8)](https://www.typescriptlang.org/)
+
+![Created At](https://img.shields.io/github/created-at/ARCJ137442/Matriangle-BaTS-Server?style=for-the-badge)
+![Last Commit](https://img.shields.io/github/last-commit/ARCJ137442/Matriangle-BaTS-Server?style=for-the-badge)
+
 ## Overview 概述
 
 [Battle Triangle (BaTr) Gamma](https://github.com/ARCJ137442/BattleTriangle-Gamma)的TypeScript版本（基于[Matriangle](https://github.com/ARCJ137442/Matriangle)实现）
